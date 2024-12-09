@@ -82,6 +82,7 @@ while not done and not paused:
         print("C. Tiredness Tablets. Instantly decrease your tiredness by 2! Cost: 40")
         print("D. Laser Cannon, knock the aliens back by 50-60 miles! Cost: 50 miles")
         print("E. Exit the shop")
+        Purchase = input("What would you like to purchase: ")
     if Purchase == "A":
         water_bottle += 1
         miles_traveled -= 20
@@ -129,4 +130,3 @@ while not done and not paused:
         print("You WON")
         print("The aliens were", miles_traveled - aliens_distance, "miles behind you")
         done = True
-
